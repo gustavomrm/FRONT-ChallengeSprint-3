@@ -1,0 +1,61 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #f9fafb, #eff6ff);
+}
+
+/* Page Transitions */
+.page-enter {
+  opacity: 0;
+  transform: translateX(96px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.3s ease;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateX(-96px);
+  transition: all 0.3s ease;
+}
+
+/* Loading States */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 192px;
+  font-size: 20px;
+  color: #2563eb;
+}
+
+/* Error States */
+.error {
+  background-color: #fef2f2;
+  color: #991b1b;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 0 20px;
+  text-align: center;
+  border-left: 4px solid #ef4444;
+}
+
+/* Success States */
+.success {
+  background-color: #f0fdf4;
+  color: #166534;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 0 20px;
+  text-align: center;
+  border-left: 4px solid #22c55e;
+}
