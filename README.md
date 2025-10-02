@@ -240,5 +240,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 - Todos os profissionais de saúde que tornam este projeto possível
 
 ---
-
+## Links:
+ Youtube: https://youtu.be/Nj8NUc2aa8Y
+ Repositório Github: https://github.com/gustavomrm/FRONT-ChallengeSprint-3.git
 **Desenvolvido com ❤️ para democratizar o acesso à saúde digital**
